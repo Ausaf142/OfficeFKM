@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-27T12:16:06 IST" name="Default suite" finished-at="2024-08-27T12:16:08 IST" duration-ms="1551">
+    <groups>
+    </groups>
+    <test started-at="2024-08-27T12:16:06 IST" name="Default test" finished-at="2024-08-27T12:16:08 IST" duration-ms="1551">
+      <class name="Parameter.FormPara">
+        <test-method signature="formPara()[pri:0, instance:Parameter.FormPara@3b69e7d1]" started-at="2024-08-27T12:16:06 IST" name="formPara" finished-at="2024-08-27T12:16:08 IST" duration-ms="1496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formPara -->
+      </class> <!-- Parameter.FormPara -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

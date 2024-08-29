@@ -1,0 +1,10 @@
+package fkm.Rest.BasicCRUD;
+
+import org.testng.annotations.Test;
+
+public class Get_Single {
+@Test
+public void singleProject() {
+	
+}
+}

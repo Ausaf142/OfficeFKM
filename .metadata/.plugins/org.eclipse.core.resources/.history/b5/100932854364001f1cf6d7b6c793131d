@@ -1,0 +1,7 @@
+package Parameter;
+import static io.restassured.RestAssured.*;
+public class PathPara {
+public static void main(String[] args) {
+	
+}
+}

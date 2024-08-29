@@ -1,0 +1,23 @@
+package Parameter;
+
+import org.testng.annotations.Test;
+
+import io.restassured.http.ContentType;
+
+import static io.restassured.RestAssured.*;
+public class FormPara {
+@Test
+public void formPara() {
+	baseURI="http://localhost";
+	port=8084;
+	given()
+	.formParam("createdBy", "mamu")
+	.formParam("projectName", "gaziabad")
+	.formParam("status", "Home")
+	.formParam("teamSize", 5)
+	.when()
+	.post("/addProject")
+	.then().log().all();
+	
+}
+}

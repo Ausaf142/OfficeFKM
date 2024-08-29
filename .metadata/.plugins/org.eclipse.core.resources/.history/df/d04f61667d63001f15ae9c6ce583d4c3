@@ -1,0 +1,10 @@
+package fkm.Rest.BasicCRUD;
+
+import org.testng.annotations.Test;
+
+public class Put {
+@Test
+public void put() {
+	
+}
+}

@@ -1,0 +1,12 @@
+package FKM;
+
+import org.testng.annotations.Test;
+
+import Generic_Utility.Base_class;
+
+public class News_Article extends Base_class {
+	@Test
+	public void newsArticle() {
+		
+	}
+}

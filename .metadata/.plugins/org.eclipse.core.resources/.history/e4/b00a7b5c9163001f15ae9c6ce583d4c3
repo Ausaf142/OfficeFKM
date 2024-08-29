@@ -1,0 +1,10 @@
+package ThreeWayOfPost;
+
+import org.testng.annotations.Test;
+
+public class JsonObject {
+@Test
+public void jsonObj() {
+	
+}
+}

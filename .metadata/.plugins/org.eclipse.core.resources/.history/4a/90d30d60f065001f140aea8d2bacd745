@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Generic_Utility.Listner"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="FKM.Cashback_History">
+        <methods>
+          <include name="baseClass"/>
+          <include name="cb_history"/>
+          <include name="AM"/>
+        </methods>
+      </class> <!-- FKM.Cashback_History -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

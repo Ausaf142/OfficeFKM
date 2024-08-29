@@ -1,0 +1,12 @@
+package fkm.Rest.BasicCRUD;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+
+public class Post_Single {
+@Test
+public void singleProject() {
+	RestAssured.get("http://localhost:8084/addProject");
+}
+}

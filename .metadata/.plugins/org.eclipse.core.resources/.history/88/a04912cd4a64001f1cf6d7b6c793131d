@@ -1,0 +1,44 @@
+package Parameter;
+import org.json.simple.JSONObject;
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+
+import static io.restassured.RestAssured.*;
+public class FormPara {
+@Test
+public void formPara() {
+//	baseURI="https://reqres.in";
+//	port=8084;
+//	given()
+//	.formParam("name", "Avenger")
+//	.formParam("job", "Thor1")
+//	.contentType(ContentType.JSON)
+//	.when()
+//	.post("/api/users")
+//	.then().log().all();
+	
+//	RequestSpecification req = RestAssured.given();
+//	req.formParam("name", "Avenger");
+//	req.formParam("job", "Thor1");
+//	req.contentType(ContentType.JSON);
+//	Response res = req.post("https://reqres.in/api/users");
+//	System.out.println(res.asPrettyString());
+	
+
+	
+	JSONObject jobj=new JSONObject();
+	jobj.put("createdBy", "practiceOffice");
+	jobj.put("projectName", "Interview2");
+	jobj.put("status", "Interview2");
+	jobj.put("teamSize", 5);
+	RequestSpecification req = RestAssured.given();
+	req.contentType(ContentType.JSON);
+	req.body(jobj);
+	Response res = req.post("http://localhost:8084/addProject");
+	System.out.println(res.asPrettyString());
+}
+}

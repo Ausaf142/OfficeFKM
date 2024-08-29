@@ -1,0 +1,7 @@
+package Parameter;
+
+public class PathPara {
+public static void main(String[] args) {
+	
+}
+}

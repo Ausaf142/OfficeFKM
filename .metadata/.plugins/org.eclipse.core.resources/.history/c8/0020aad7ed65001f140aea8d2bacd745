@@ -1,0 +1,10 @@
+package Generic_Utility;
+
+import org.testng.annotations.Test;
+
+public class TryAtFail {
+@Test
+public void reTry() {
+	
+}
+}

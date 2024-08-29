@@ -1,0 +1,16 @@
+package FKM;
+
+import org.testng.annotations.Test;
+
+import Generic_Utility.Base_class;
+
+public class Withdrawal_Money extends Base_class {
+	@Test
+	public void withdraw_Money() {
+		
+		
+		
+		
+	}
+
+}

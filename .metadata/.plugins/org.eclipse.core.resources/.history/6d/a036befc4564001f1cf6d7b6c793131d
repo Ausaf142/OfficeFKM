@@ -1,0 +1,21 @@
+package Parameter;
+import org.testng.annotations.Test;
+
+import io.restassured.http.ContentType;
+
+import static io.restassured.RestAssured.*;
+public class FormPara {
+@Test
+public void formPara() {
+	baseURI="https://reqres.in";
+//	port=8084;
+	given()
+	.formParam("name", "Avenger")
+	.formParam("job", "Thor")
+	.contentType(ContentType.JSON)
+	.when()
+	.post("api/users")
+	.then().log().all();
+	
+}
+}

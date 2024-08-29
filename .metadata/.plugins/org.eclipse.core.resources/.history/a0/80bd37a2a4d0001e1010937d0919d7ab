@@ -1,0 +1,13 @@
+package Java_Practice;
+
+public class Rectangle {
+
+
+public static void Area(int length,int width) {
+	int a =length*width;
+	System.out.println(a);
+}
+public static void main(String[] args) {
+	Area(10, 10);
+}
+}

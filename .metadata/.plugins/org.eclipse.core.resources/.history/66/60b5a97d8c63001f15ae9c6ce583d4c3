@@ -1,0 +1,17 @@
+package BDD_CRUD;
+
+import org.testng.annotations.Test;
+
+import static io.restassured.RestAssured.*;
+
+public class Get {
+@Test
+public void get() {
+	baseURI="http://localhost";
+	port=8084;
+	 when()
+	 .get("projects/TY_PROJ_2808")
+	 .then().log().all();
+	 
+}
+}

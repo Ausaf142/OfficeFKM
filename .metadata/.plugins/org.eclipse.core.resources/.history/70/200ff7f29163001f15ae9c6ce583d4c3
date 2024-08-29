@@ -1,0 +1,15 @@
+package ThreeWayOfPost;
+
+import org.testng.annotations.Test;
+import org.json.simple.JSONObject;
+public class JsonObj {
+@Test
+public void jsonObj() {
+	JsonObject Jobj= new JsonObject();
+	
+	Jobj.put("createdBy", "practiceOffice");
+	Jobj.put("projectName", "Interview2");
+	Jobj.put("status", "Active");
+	Jobj.put("teamSize", 1);
+}
+}

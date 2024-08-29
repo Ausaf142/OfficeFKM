@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Appium2.0/Screenshot 2023-12-20 170054.png&apos; to &apos;ss.png&apos;" description="Rename resource &apos;Screenshot 2023-12-20 170054.png&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Screenshot 2023-12-20 170054.png" name="ss.png" stamp="1721370658497" updateReferences="true"/>
+</session>

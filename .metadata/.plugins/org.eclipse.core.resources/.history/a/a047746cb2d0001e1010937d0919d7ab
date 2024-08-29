@@ -1,0 +1,9 @@
+package Java_Practice;
+
+public class Area {
+public static void main(String[] args) {
+	Rectangle rec = new Rectangle(10,10);
+	rec.Area();
+	rec.perimeter();
+}
+}

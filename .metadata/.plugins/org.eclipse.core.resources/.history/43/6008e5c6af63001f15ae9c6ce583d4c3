@@ -1,0 +1,10 @@
+package Request_Chaining;
+
+import org.testng.annotations.Test;
+
+public class Chain {
+@Test
+public void methodChaining() {
+	
+}
+}
