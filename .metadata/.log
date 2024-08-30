@@ -3840,3 +3840,246 @@ java -ea -classpath C:\Users\Dell\eclipse\java-2023-12\eclipse\configuration\org
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 62407 -protocol json -d C:\Users\Dell\eclipse-workspace\FKM_Website\test-output C:\Users\Dell\eclipse-workspace\FKM_Website\testngLISTNER.xml
 java -ea -classpath C:\Users\Dell\eclipse\java-2023-12\eclipse\configuration\org.eclipse.osgi\519\0\.cp\lib\testng-remote.jar:C:\Users\Dell\eclipse-workspace\FKM_Website\target\test-classes:C:\Users\Dell\eclipse-workspace\FKM_Website\target\classes:C:\Users\Dell\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar:C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-java\4.12.0\selenium-java-4.12.0.jar:C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-api\4.12.0\selenium-api-4.12.0.jar:C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.12.0\selenium-chrome-driver-4.12.0.jar:C:\Users\Dell\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar:C:\Users\Dell\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar:C:\Users\Dell\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar:C:\Users\Dell\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:C:\Users\Dell\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Dell\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar:C:\Users\Dell\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar:C:\Users\Dell\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar:C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.12.0\selenium-chromium-driver-4.12.0.jar:C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-json\4.12.0\selenium-json-4.12.0.jar:C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.12.0\selenium-manager-4.12.0.jar:C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v114\4.12.0\selenium-devtools-v114-4.12.0.jar:C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v115\4.12.0\selenium-devtools-v115-4.12.0.jar:C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v116\4.12.0\selenium-devtools-v116-4.12.0.jar:C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.12.0\selenium-devtools-v85-4.12.0.jar:C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.12.0\selenium-edge-driver-4.12.0.jar:C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.12.0\selenium-firefox-driver-4.12.0.jar:C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-http\4.12.0\selenium-http-4.12.0.jar:C:\Users\Dell\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar:C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.12.0\selenium-ie-driver-4.12.0.jar:C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.12.0\selenium-remote-driver-4.12.0.jar:C:\Users\Dell\.m2\repository\io\netty\netty-buffer\4.1.96.Final\netty-buffer-4.1.96.Final.jar:C:\Users\Dell\.m2\repository\io\netty\netty-codec-http\4.1.96.Final\netty-codec-http-4.1.96.Final.jar:C:\Users\Dell\.m2\repository\io\netty\netty-codec\4.1.96.Final\netty-codec-4.1.96.Final.jar:C:\Users\Dell\.m2\repository\io\netty\netty-handler\4.1.96.Final\netty-handler-4.1.96.Final.jar:C:\Users\Dell\.m2\repository\io\netty\netty-common\4.1.96.Final\netty-common-4.1.96.Final.jar:C:\Users\Dell\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.96.Final\netty-transport-classes-epoll-4.1.96.Final.jar:C:\Users\Dell\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.96.Final\netty-transport-classes-kqueue-4.1.96.Final.jar:C:\Users\Dell\.m2\repository\io\netty\netty-transport-native-epoll\4.1.96.Final\netty-transport-native-epoll-4.1.96.Final.jar:C:\Users\Dell\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.96.Final\netty-transport-native-kqueue-4.1.96.Final.jar:C:\Users\Dell\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final.jar:C:\Users\Dell\.m2\repository\io\netty\netty-transport\4.1.96.Final\netty-transport-4.1.96.Final.jar:C:\Users\Dell\.m2\repository\io\netty\netty-resolver\4.1.96.Final\netty-resolver-4.1.96.Final.jar:C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar:C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar:C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar:C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar:C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar:C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar:C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar:C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar:C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar:C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar:C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar:C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar:C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar:C:\Users\Dell\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar:C:\Users\Dell\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar:C:\Users\Dell\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar:C:\Users\Dell\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar:C:\Users\Dell\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar:C:\Users\Dell\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:C:\Users\Dell\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:C:\Users\Dell\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\Dell\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar:C:\Users\Dell\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar:C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-os\4.12.0\selenium-os-4.12.0.jar:C:\Users\Dell\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.12.0\selenium-safari-driver-4.12.0.jar:C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-support\4.12.0\selenium-support-4.12.0.jar:C:\Users\Dell\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar:C:\Users\Dell\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar:C:\Users\Dell\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar:C:\Users\Dell\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar:C:\Users\Dell\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar:C:\Users\Dell\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar:C:\Users\Dell\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar:C:\Users\Dell\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar:C:\Users\Dell\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar:C:\Users\Dell\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar:C:\Users\Dell\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar:C:\Users\Dell\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar:C:\Users\Dell\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar:C:\Users\Dell\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar:C:\Users\Dell\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar:C:\Users\Dell\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar:C:\Users\Dell\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar:C:\Users\Dell\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar:C:\Users\Dell\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar:C:\Users\Dell\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar:C:\Users\Dell\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar:C:\Users\Dell\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar:C:\Users\Dell\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar:C:\Users\Dell\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar:C:\Users\Dell\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar:C:\Users\Dell\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar:C:\Users\Dell\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar:C:\Users\Dell\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar:C:\Users\Dell\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar:C:\Users\Dell\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar:C:\Users\Dell\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar:C:\Users\Dell\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar:C:\Users\Dell\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar:C:\Users\Dell\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar:C:\Users\Dell\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Dell\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar:C:\Users\Dell\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar:C:\Users\Dell\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar:C:\Users\Dell\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar:C:\Users\Dell\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar:C:\Users\Dell\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar:C:\Users\Dell\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\Dell\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar:C:\Users\Dell\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar:C:\Users\Dell\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\Dell\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar:C:\Users\Dell\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar:C:\Users\Dell\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar:C:\Users\Dell\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar:C:\Users\Dell\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar:C:\Users\Dell\.m2\repository\junit\junit\4.10\junit-4.10.jar:C:\Users\Dell\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar:C:\Users\Dell\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar:C:\Users\Dell\eclipse-workspace\Appium2.0\target\classes:C:\Users\Dell\Downloads\selenium-server-4.12.0.jar:C:\Users\Dell\.m2\repository\io\appium\java-client\8.5.1\java-client-8.5.1.jar:C:\Users\Dell\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar:C:\Users\Dell\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar:C:\Users\Dell\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar:C:\Users\Dell\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar:C:\Users\Dell\eclipse-workspace\Feb2024\target\classes org.testng.remote.RemoteTestNG -serport 62407 -protocol json -d C:\Users\Dell\eclipse-workspace\FKM_Website\test-output C:\Users\Dell\eclipse-workspace\FKM_Website\testngLISTNER.xml
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-08-30 16:20:25.440
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.testng.eclipse.ui.AbstractTab.initImages(AbstractTab.java:499)
+	at org.testng.eclipse.ui.AbstractTab.createTabControl(AbstractTab.java:166)
+	at org.testng.eclipse.ui.TestRunnerViewPart.createTabControl(TestRunnerViewPart.java:724)
+	at org.testng.eclipse.ui.TestRunnerViewPart.loadTestRunTabs(TestRunnerViewPart.java:715)
+	at org.testng.eclipse.ui.TestRunnerViewPart.createTestRunTabs(TestRunnerViewPart.java:675)
+	at org.testng.eclipse.ui.TestRunnerViewPart.createPartControl(TestRunnerViewPart.java:801)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:158)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityView.createPartControl(CompatibilityView.java:155)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:365)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:976)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:938)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:138)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:385)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:311)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:203)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:528)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.createElement(PartServiceImpl.java:1313)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1274)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:397)
+	at org.eclipse.ui.internal.ViewReference.getView(ViewReference.java:89)
+	at org.eclipse.ui.internal.WorkbenchPage.findView(WorkbenchPage.java:1953)
+	at org.testng.eclipse.TestNGPlugin.findTestRunnerViewPartInActivePage(TestNGPlugin.java:278)
+	at org.testng.eclipse.TestNGPlugin.connectTestRunner(TestNGPlugin.java:227)
+	at org.testng.eclipse.TestNGPlugin$2.run(TestNGPlugin.java:218)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-08-30 16:20:25.444
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.testng.eclipse.ui.AbstractTab.initImages(AbstractTab.java:499)
+	at org.testng.eclipse.ui.AbstractTab.createTabControl(AbstractTab.java:166)
+	at org.testng.eclipse.ui.TestRunnerViewPart.createTabControl(TestRunnerViewPart.java:724)
+	at org.testng.eclipse.ui.TestRunnerViewPart.loadTestRunTabs(TestRunnerViewPart.java:715)
+	at org.testng.eclipse.ui.TestRunnerViewPart.createTestRunTabs(TestRunnerViewPart.java:675)
+	at org.testng.eclipse.ui.TestRunnerViewPart.createPartControl(TestRunnerViewPart.java:801)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:158)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityView.createPartControl(CompatibilityView.java:155)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:365)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:976)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:938)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:138)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:385)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:311)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:203)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:528)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.createElement(PartServiceImpl.java:1313)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1274)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:397)
+	at org.eclipse.ui.internal.ViewReference.getView(ViewReference.java:89)
+	at org.eclipse.ui.internal.WorkbenchPage.findView(WorkbenchPage.java:1953)
+	at org.testng.eclipse.TestNGPlugin.findTestRunnerViewPartInActivePage(TestNGPlugin.java:278)
+	at org.testng.eclipse.TestNGPlugin.connectTestRunner(TestNGPlugin.java:227)
+	at org.testng.eclipse.TestNGPlugin$2.run(TestNGPlugin.java:218)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.jdt.ui 2 0 2024-08-30 16:58:48.664
+!MESSAGE The 'org.eclipse.mylyn.java.ui.javaAllCompletionProposalComputer' proposal computer from the 'org.eclipse.mylyn.java.ui' plug-in did not complete normally. The extension has thrown a runtime exception.
+!STACK 0
+java.lang.IllegalArgumentException: 
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:68)
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:52)
+	at org.eclipse.jdt.internal.ui.text.JavaHeuristicScanner.findOpeningPeer(JavaHeuristicScanner.java:602)
+	at org.eclipse.jdt.internal.ui.text.java.JavaCompletionProposalComputer.guessMethodContextInformationPosition(JavaCompletionProposalComputer.java:155)
+	at org.eclipse.jdt.internal.ui.text.java.JavaCompletionProposalComputer.internalComputeCompletionProposals(JavaCompletionProposalComputer.java:280)
+	at org.eclipse.jdt.internal.ui.text.java.JavaCompletionProposalComputer.computeCompletionProposals(JavaCompletionProposalComputer.java:218)
+	at org.eclipse.jdt.internal.ui.text.java.JavaTypeCompletionProposalComputer.computeCompletionProposals(JavaTypeCompletionProposalComputer.java:65)
+	at org.eclipse.mylyn.internal.java.ui.editor.FocusedJavaAllProposalComputer.computeCompletionProposals(FocusedJavaAllProposalComputer.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:348)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:333)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:289)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:378)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:377)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-30 17:09:46.906
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-30 17:09:46.906
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-30 17:10:54.873
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-30 17:10:54.876
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-30 17:11:23.443
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-30 17:11:23.448
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-30 17:12:39.418
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-30 17:12:39.421
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-30 17:21:31.986
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-30 17:21:31.990
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-30 17:42:57.332
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-30 17:42:57.335
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-30 17:45:30.098
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-30 17:45:30.102
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-30 17:48:02.379
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-30 17:48:02.385
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-30 17:54:37.528
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-30 17:54:37.531
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
