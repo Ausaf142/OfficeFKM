@@ -19,7 +19,7 @@ public void HoverAtHeader() throws InterruptedException {
 	Actions act = new Actions(driver);
 	act.moveToElement(AllCategory).perform();
 	Thread.sleep(5000);
-	WebElement topStores = driver.findElement(By.xpath("//span[text()='Top tores']"));
+	WebElement topStores = driver.findElement(By.xpath("//span[text()='Topp Stores']"));
 	act.moveToElement(topStores).perform();
 
 }

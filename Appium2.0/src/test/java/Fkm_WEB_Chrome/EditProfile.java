@@ -16,7 +16,7 @@ import Generic_Utility.Try;
 public class EditProfile extends Base_Class {
 	
 	public String name="Testing Account";
-	@Test(retryAnalyzer = Try.class)
+	@Test
 public void  profile() throws InterruptedException {
 	
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
@@ -38,7 +38,7 @@ public void  profile() throws InterruptedException {
 		box.clear();
 		Thread.sleep(1000);
 		box.sendKeys(name);
-		WebElement saveBtn = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[text()='Save Changes']")));
+		WebElement saveBtn = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[text()='Savee Changes']")));
 
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].scrollIntoView(true);", saveBtn);

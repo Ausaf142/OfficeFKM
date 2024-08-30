@@ -27,8 +27,7 @@ public class Edit_profile extends Base_class {
 		Thread.sleep(500);
 		
 		//validation
-//		String name = driver.findElement(By.id("fullname")).getText();
-//		System.out.println(name);
+	
 		
 		
 		

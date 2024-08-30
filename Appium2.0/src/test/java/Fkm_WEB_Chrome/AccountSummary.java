@@ -15,7 +15,7 @@ import Generic_Utility.Try;
 
 public class AccountSummary extends Base_Class {
 
-	@Test(retryAnalyzer = Try.class)
+	@Test
 public void summary() throws InterruptedException {
 	
 	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));

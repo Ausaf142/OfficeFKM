@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="FKM.Edit_profile">
+      <class name="FKM.Mouse_Hover">
         <methods>
+          <include name="HoverAtHeader"/>
           <include name="baseClass"/>
           <include name="AM"/>
-          <include name="profile"/>
         </methods>
-      </class> <!-- FKM.Edit_profile -->
+      </class> <!-- FKM.Mouse_Hover -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

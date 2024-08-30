@@ -14,12 +14,12 @@ import org.testng.annotations.BeforeMethod;
 
 
 import io.appium.java_client.android.AndroidDriver;
-import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 public class Base_Class {
 //	public AndroidDriver driver ;  
 	public static WebDriver driver; 
-	public  WebDriver edriver =null;
+	public  WebDriver edriver;
 @BeforeMethod
 public void login() throws MalformedURLException, InterruptedException {
 	DesiredCapabilities cap = new DesiredCapabilities();
@@ -31,11 +31,11 @@ public void login() throws MalformedURLException, InterruptedException {
 	cap.setCapability("autoGrantPermissions", true);
 	cap.setCapability("newCommandTimeout", 300); // 5 minutes
 
-	cap.setCapability("chromedriverExecutable", "C:\\Users\\Dell\\Downloads\\chromedriver\\chromedriver-win64\\chromedriver.exe");
+	cap.setCapability("chromedriverExecutable", "C:\\Users\\Dell\\Downloads\\chromedriver-win64 (2)\\chromedriver-win64\\chromedriver.exe");
 	
     URL url = URI.create("http://127.0.0.1:4723/").toURL();
-    WebDriverManager.chromedriver().setup();
 
+    driver=edriver;
 	driver = new AndroidDriver(url, cap);	
 	driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 	driver.get("https://desktop.freekaamaal.com/");

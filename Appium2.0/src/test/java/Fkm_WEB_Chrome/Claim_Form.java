@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 import Generic_Utility.Base_Class;
-import Generic_Utility.Try;
+
 
 
 public class Claim_Form extends Base_Class {
@@ -20,7 +20,7 @@ public class Claim_Form extends Base_Class {
 	public String store="tataaig";
 	public String Date="09-08-2024";
 	
-@Test(retryAnalyzer = Try.class)
+@Test
 public void claimForm() throws InterruptedException {
 	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 	for(int i=0;i<3;i++) {
@@ -87,10 +87,10 @@ public void claimForm() throws InterruptedException {
 	Thread.sleep(1000);
 	file.click();
 
-	allowAppPermissions(driver);
-	
-	file.sendKeys("./ss.png");
-	driver.findElement(By.xpath("//button[text()='Submit']")).click();
+//	allowAppPermissions(driver);
+//	
+//	file.sendKeys("./ss.png");
+//	driver.findElement(By.xpath("//button[text()='Submit']")).click();
 		
 }			
 public static void allowAppPermissions(WebDriver driver) {

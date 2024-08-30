@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Parameter.FormPara">
+      <class name="Request_Chaining.Chain">
         <methods>
-          <include name="formPara"/>
+          <include name="methodChaining"/>
         </methods>
-      </class> <!-- Parameter.FormPara -->
+      </class> <!-- Request_Chaining.Chain -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

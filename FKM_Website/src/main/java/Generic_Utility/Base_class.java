@@ -12,11 +12,11 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 public class Base_class {
-	public WebDriver driver;
-	public static WebDriver edriver;
+	public static WebDriver driver;
+	public WebDriver edriver;
 @BeforeMethod
 public void baseClass(){
-	driver =new ChromeDriver() ;  
+	 driver =new ChromeDriver() ;  
 	 edriver=driver;
      driver.manage().window().maximize();
      driver.manage().timeouts().implicitlyWait(15,TimeUnit.SECONDS);

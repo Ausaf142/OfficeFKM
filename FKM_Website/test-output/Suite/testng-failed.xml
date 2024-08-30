@@ -13,27 +13,6 @@
           <include name="AM"/>
         </methods>
       </class> <!-- FKM.Mouse_Hover -->
-      <class name="FKM.Edit_profile">
-        <methods>
-          <include name="baseClass"/>
-          <include name="AM"/>
-          <include name="profile"/>
-        </methods>
-      </class> <!-- FKM.Edit_profile -->
-      <class name="FKM.Cashback_History">
-        <methods>
-          <include name="baseClass"/>
-          <include name="cb_history"/>
-          <include name="AM"/>
-        </methods>
-      </class> <!-- FKM.Cashback_History -->
-      <class name="FKM.Claim_Form">
-        <methods>
-          <include name="baseClass"/>
-          <include name="claim"/>
-          <include name="AM"/>
-        </methods>
-      </class> <!-- FKM.Claim_Form -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

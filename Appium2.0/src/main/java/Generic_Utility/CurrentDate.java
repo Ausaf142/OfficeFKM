@@ -6,15 +6,12 @@ import java.util.Random;
 
 import org.testng.annotations.Test;
 
-
 public class CurrentDate {
 	
 	public String Random_Number() {
-		 String timeStamp = new SimpleDateFormat("hhmmss").format(new Date());
+		Date date = new Date();
+		 String timeStamp = new SimpleDateFormat("hhmmss").format(date);
 		 return timeStamp;
 	}
-
 	
-
-		
 }

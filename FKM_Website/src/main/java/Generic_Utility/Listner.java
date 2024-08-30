@@ -17,7 +17,7 @@ public class Listner implements ITestListener {
 		String testname = result.getMethod().getMethodName();
 		System.out.println(testname+" :It is failed TestCase");
 	
-	EventFiringWebDriver edriver=new EventFiringWebDriver(Base_class.edriver);
+	EventFiringWebDriver edriver=new EventFiringWebDriver(Base_class.driver);
 	File src = edriver.getScreenshotAs(OutputType.FILE);
 	File dest=new File("./Me"+testname+".png");
 	try {
