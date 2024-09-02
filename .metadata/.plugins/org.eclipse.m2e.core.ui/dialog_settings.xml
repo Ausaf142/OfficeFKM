@@ -14,6 +14,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Dell\eclipse-workspace\fkm.Rest"/>
 			<item value="C:\Users\Dell\eclipse-workspace\Appium2.0"/>
 			<item value="C:\Users\Dell\eclipse-workspace\Do"/>
 		</list>
@@ -57,10 +58,12 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="AppiumAPK"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="AppiumAPK"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

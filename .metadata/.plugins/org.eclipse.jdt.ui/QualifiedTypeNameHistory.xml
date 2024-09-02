@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.testng.annotations.AfterMethod"/>
-    <fullyQualifiedTypeName name="io.github.bonigarcia.wdm.webdriver.WebDriverBrowser"/>
-    <fullyQualifiedTypeName name="Generic_Utility.Base_Class"/>
-    <fullyQualifiedTypeName name="java.awt.event.KeyEvent"/>
-    <fullyQualifiedTypeName name="java.awt.Robot"/>
-    <fullyQualifiedTypeName name="java.lang.Runtime"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedCondition"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
@@ -18,14 +12,12 @@
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="java.util.NoSuchElementException"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
     <fullyQualifiedTypeName name="Generic_Utility.Excel_Data"/>
     <fullyQualifiedTypeName name="org.testng.Reporter"/>
     <fullyQualifiedTypeName name="java.awt.Desktop.Action"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.interactions.Action"/>
     <fullyQualifiedTypeName name="org.apache.commons.math3.optim.nonlinear.scalar.noderiv.BOBYQAOptimizer"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
     <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
     <fullyQualifiedTypeName name="org.testng.reporters.jq.Main"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.TakesScreenshot"/>
@@ -40,7 +32,6 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.json.Json"/>
     <fullyQualifiedTypeName name="net.bytebuddy.NamingStrategy.Suffixing.BaseNameResolver.ForGivenType"/>
     <fullyQualifiedTypeName name="javax.sound.sampled.Port"/>
-    <fullyQualifiedTypeName name="java.net.URI"/>
     <fullyQualifiedTypeName name="ThreeWayOfPost.JsonObject"/>
     <fullyQualifiedTypeName name="com.google.gson.JsonObject"/>
     <fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
@@ -60,4 +51,13 @@
     <fullyQualifiedTypeName name="Generic_Utility.tryAtFail"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="bsh.Capabilities"/>
+    <fullyQualifiedTypeName name="org.asynchttpclient.uri.Uri"/>
+    <fullyQualifiedTypeName name="sun.util.resources.ext.CurrencyNames_ar_QA"/>
+    <fullyQualifiedTypeName name="com.sun.java.swing.action.OpenAction"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.remote.DesiredCapabilities"/>
+    <fullyQualifiedTypeName name="java.net.URI"/>
+    <fullyQualifiedTypeName name="io.appium.java_client.android.AndroidDriver"/>
 </qualifiedTypeNameHistroy>

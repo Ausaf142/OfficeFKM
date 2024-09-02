@@ -10,8 +10,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="System.out"/>
+		<item key="selection" value="allowAppPermissions"/>
 		<list key="findhistory">
+			<item value="allowAppPermissions"/>
 			<item value="system.out"/>
 			<item value="system"/>
 			<item value="retry"/>
